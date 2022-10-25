@@ -45,6 +45,12 @@ for (let employee of team){
 }
 */
 
+/*Milestone 2
+const bottom = document.querySelector(".bottom");
+let stringa = `${employee.nome} e ${employee.ruolo}`
+*/
+
+
 //Milestone 3
 const row = document.querySelector(".row");
 for (let employee of team){
