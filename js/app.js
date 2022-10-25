@@ -45,7 +45,7 @@ for (let employee of team){
 }
 */
 
-//Milestone 2
+//Milestone 3
 const row = document.querySelector(".row");
 for (let employee of team){
     let card = `
