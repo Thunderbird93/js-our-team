@@ -1,3 +1,4 @@
+//Milestone 0
 const team = [
     {
     nome: 'Wayne Barnett',
@@ -36,11 +37,15 @@ const team = [
     }, 
 ]
 
+//Milestone 1
 for (let i = 0; i < team.lenght; i++){
     const employee = team[i];
     console.log(employee); //questo console.log non funziona
     const output = `${employee.nome} ${employee.ruolo} ${employee.image}`
     console.log(output); //questo console.log non funziona
 }
-
 console.log(team)
+
+//Milestone 2
+
+
