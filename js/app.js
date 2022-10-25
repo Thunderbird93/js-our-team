@@ -12,27 +12,35 @@ const team = [
     },
 
     {
-        nome: 'Walter Gordon',
-        ruolo: 'Office Manager',
-        image: 'walter-gordon-office-manager.jpg',
+    nome: 'Walter Gordon',
+    ruolo: 'Office Manager',
+    image: 'walter-gordon-office-manager.jpg',
     },
 
     {
-        nome: 'Angela Lopez',
-        ruolo: 'Social Media Manager',
-        image: 'angela-lopez-social-media-manager.jpg',
+    nome: 'Angela Lopez',
+    ruolo: 'Social Media Manager',
+    image: 'angela-lopez-social-media-manager.jpg',
     },
 
     {
-        nome: 'Scott Estrada',
-        ruolo: 'Developer',
-        image: 'scott-estrada-developer.jpg',
+    nome: 'Scott Estrada',
+    ruolo: 'Developer',
+    image: 'scott-estrada-developer.jpg',
     },
 
     {
-        nome: 'Barbara Ramos',
-        ruolo: 'Graphic Designer',
-        image: 'barbara-ramos-graphic-designer.jpg',
+    nome: 'Barbara Ramos',
+    ruolo: 'Graphic Designer',
+    image: 'barbara-ramos-graphic-designer.jpg',
     }, 
 ]
 
+for (let i = 0; i < team.lenght; i++){
+    const employee = team[i];
+    console.log(employee); //questo console.log non funziona
+    const output = `${employee.nome} ${employee.ruolo} ${employee.image}`
+    console.log(output); //questo console.log non funziona
+}
+
+console.log(team)
